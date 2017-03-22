@@ -1,6 +1,18 @@
 Sphinx
 
+# Invoke
+invoke
+
+# QA
+pycodestyle
+pydocstyle
+isort
+
 # JSON
 jsonschema
 msgpack-python
 ijson
+
+# PIL
+Pillow
+#PyQt5

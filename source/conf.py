@@ -12,7 +12,7 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-
+"""Sphinx configuration."""
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
@@ -168,6 +168,9 @@ epub_exclude_files = ['search.html']
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3.6', None),
+    'invoke': ('http://docs.pyinvoke.org/en/latest/', None),
     'jsonschema': ('http://python-jsonschema.readthedocs.io/en/latest/', None),
+    'matplotlib': ('http://matplotlib.org/2.0.0', None),
+    'Pillow': ('https://pillow.readthedocs.io/en/latest/', None),
     'msgpack-python': ('http://msgpack-python.readthedocs.io/en/latest/', None)
 }
